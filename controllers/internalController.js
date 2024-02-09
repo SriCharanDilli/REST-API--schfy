@@ -1,5 +1,5 @@
 const { default: mongoose } = require("mongoose");
-const Internal = require("./../models/Internal");
+const Internal = require("../models/Internal.models.js");
 const asyncHandler = require("express-async-handler");
 
 // @desc Get Internal Result

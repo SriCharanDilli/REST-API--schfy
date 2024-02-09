@@ -1,4 +1,4 @@
-const TimeSchedule = require("./../models/TimeSchedule");
+const TimeSchedule = require("../models/TimeSchedule.models.js");
 const asyncHandler = require("express-async-handler");
 
 // @desc Get TimeSchedule for each Teacher

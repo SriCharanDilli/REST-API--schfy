@@ -1,5 +1,5 @@
 const { default: mongoose } = require("mongoose");
-const Attendance = require("./../models/Attendance");
+const Attendance = require("../models/Attendance.models.js");
 const asyncHandler = require("express-async-handler");
 
 // @desc Get Attendance

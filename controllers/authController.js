@@ -1,5 +1,5 @@
-const Teacher = require("./../models/Teacher");
-const Student = require("./../models/Student");
+const Teacher = require("../models/Teacher.models.js");
+const Student = require("../models/Student.models.js");
 const asyncHandler = require("express-async-handler");
 const bcrypt = require("bcrypt");
 
@@ -65,3 +65,5 @@ const studentLogin = asyncHandler(async (req, res) => {
 // const logout = asyncHandler(async (req, res) => {});
 
 module.exports = { teacherLogin, studentLogin };
+
+

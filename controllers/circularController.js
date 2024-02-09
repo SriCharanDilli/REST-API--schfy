@@ -1,4 +1,4 @@
-const Circular = require("../models/Circular"); // Assuming Circular model is defined in "./../models/Circular"
+const Circular = require("../models/Circular.models.js"); 
 const asyncHandler = require("express-async-handler");
 
 // @desc Get Circulars for each Paper

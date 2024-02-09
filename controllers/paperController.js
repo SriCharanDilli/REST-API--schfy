@@ -1,5 +1,5 @@
 const { mongoose } = require("mongoose");
-const Paper = require("./../models/Paper");
+const Paper = require("../models/Paper.models.js");
 const asyncHandler = require("express-async-handler");
 
 // @desc Get Papers for each Teacher
